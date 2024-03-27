@@ -4,6 +4,7 @@ import StyledComponentsRegistry from '@/styles/styled-components/registry'
 
 import { Inter } from "next/font/google";
 import Head from 'next/head'
+import Script from 'next/script'
 const Header = dynamic(() => import('@/components/Header'), { ssr: false })
 
 // import 'swiper/css';
@@ -27,6 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
+        {/* <Script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"/> */}
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -36,7 +38,7 @@ export default function RootLayout({
           href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
         />
 
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        {/* <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> */}
       </Head>
       <StyledComponentsRegistry>
         <body className={inter.className}>

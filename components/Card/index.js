@@ -19,7 +19,7 @@ export const theme = {
     blackColor: "#000000",
 }
 
-function index(props) {
+function Card(props) {
 
     const ImageUrl = get(props, 'ImageUrl', [])
     const lazada = get(props, 'lazada', [])
@@ -82,7 +82,7 @@ function index(props) {
     )
 }
 
-export default index
+export default Card
 
 const Wrapper = styled.div`
     box-shadow: rgba(0, 0, 0, 0.05) 0px -1px 1px, rgba(0, 0, 0, 0.16) 0px 3px 6px;

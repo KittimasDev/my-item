@@ -17,9 +17,9 @@ export const theme = {
     xxl: "1400px",
 }
 
-function index() {
+function Tab() {
 
-    const items_S1 = get(S1, 'items', [])
+    const items_S1 = get(S1, 'items', null)
 
     const [state, setState] = useState('s1')
     const [width, setWidth] = useState(0)
@@ -44,22 +44,16 @@ function index() {
 
         const eiei = items_S1.filter(item => {
             const tag = get(item, 'tag', [])
-            // tag.filter(word => {
-            //     if(word == 'ทำความสะอาด')
-            //     {
-            //         return word
-            //     }
-            // })
             return tag.indexOf('ทำความสะอาด') != -1
         })
         setItemFilter(eiei)
     }, [state])
 
     useEffect(() => {
-        let width = screen.width;
+        let width = screen?.width;
         setWidth(width / 3)
-    }, [screen.width])
-    console.log('temFilter', itemFilter)
+    }, [screen?.width])
+
     return (
         <Wrapper theme={theme} maxWidth={width}>
             <div className='my-container'>
@@ -93,7 +87,7 @@ function index() {
     )
 }
 
-export default index
+export default Tab
 
 const Wrapper = styled.div`
     padding: 20px;
@@ -156,3 +150,13 @@ const Wrapper = styled.div`
         color:white;
     }
 `
+
+// import React from 'react'
+
+// function index() {
+//   return (
+//     <div>index</div>
+//   )
+// }
+
+// export default index

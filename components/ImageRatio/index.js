@@ -12,7 +12,7 @@ export const theme = {
     xxl: "1400px",
 }
 
-function index(props) {
+function ImageRatio(props) {
 
     const width = get(props, 'width', 0)
     const height = get(props, 'height', 0)
@@ -40,7 +40,7 @@ function index(props) {
     )
 }
 
-export default index
+export default ImageRatio
 
 const Wrapper = styled.div`
     position: relative;
