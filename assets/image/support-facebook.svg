@@ -1,0 +1,11 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+	<defs>
+		<style>.cls-facebook-1{fill:#4596d0;}.cls-facebook-2{fill:#f7f7f5;}</style>
+	</defs>
+	<title>Icon New Web Final 2</title>
+	<g id="Layer_4">
+		<circle class="cls-facebook-1" cx="50" cy="50" r="50"/>
+		<path class="cls-facebook-2" d="M50,18.84c-17.62,0-32,13.94-32,31.08A30.74,30.74,0,0,0,28.63,73l-.38,9.76a1.67,1.67,0,0,0,2.45,1.55L40,79.44A32.8,32.8,0,0,0,50,81c17.62,0,32-13.94,32-31.07S67.62,18.84,50,18.84ZM54.19,58l-8.37-6.25L33.08,61.09,45.82,42.86l8.36,6.24,12.74-9.37Z"/>
+	</g>
+</svg>

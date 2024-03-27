@@ -1,0 +1,251 @@
+@font-face {
+  font-weight: Bold;
+  font-family: "centraNo2";
+  src: url("../assets/fonts/centraNo2/centraNo2-Bold.ttf");
+}
+
+@font-face {
+  font-weight: Bold;
+  font-family: "Sukhumvit-Set";
+  src: url("../assets/fonts/sukhumvitSet/sukhumvitSet-bold.ttf");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "centraNo2";
+  src: url("../assets/fonts/centraNo2/centraNo2-Light.ttf");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "Sukhumvit-Set";
+  src: url("../assets/fonts/sukhumvitSet/sukhumvitSet-light.ttf");
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: "centraNo2";
+  src: url("../assets/fonts/centraNo2/centraNo2-Medium.ttf");
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: "Sukhumvit-Set";
+  src: url("../assets/fonts/sukhumvitSet/sukhumvitSet-light.ttf");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: #444547 !important;
+  font-weight: normal !important;
+  font-family: "Sukhumvit-Set", "centraNo2" !important;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  select,
+  textarea,
+  input {
+    font-size: 16px !important;
+  }
+}
+
+.my-container {
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.my-container-blogs {
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.my-container-loyalty {
+  width: 100%;
+  padding: 0px 0px;
+}
+
+@media (min-width: 768px) {
+  .my-container {
+    padding: 0px 45px;
+  }
+
+  .my-container-blogs {
+    padding: 0px 45px;
+  }
+
+  .my-container-loyalty {
+    padding: 0px 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .my-container {
+    margin: auto;
+    max-width: 1400px !important;
+  }
+
+  .my-container-blogs {
+    margin: auto;
+    padding: 0px;
+    max-width: 1040px !important;
+  }
+
+  .my-container-loyalty {
+    margin: auto;
+    max-width: 1400px !important;
+  }
+}
+
+.vjs-big-play-button {
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%);
+}
+
+.swiper-wrapper {
+  align-items: center !important;
+}
+
+.swiper-container {
+  position: relative;
+}
+
+.swiper-pagination-bullet {
+  height: 5px !important;
+
+  opacity: 0.2 !important;
+  background: #ffffff !important;
+  border-radius: 50px !important;
+
+  width: 10vw !important;
+  max-width: 20px !important;
+  margin: 0px 2px !important;
+}
+
+@media (min-width: 768px) {
+  .swiper-pagination-bullet {
+    width: 40px !important;
+    max-width: 40px !important;
+    margin: 0px 4px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .swiper-pagination-bullet {
+    width: 50px !important;
+    max-width: 50px !important;
+    margin: 0px 6px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .swiper-pagination-bullet {
+    width: 60px !important;
+    max-width: 60px !important;
+    margin: 0px 8px !important;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background: #ffffff !important;
+}
+
+.swiper-button-next {
+  outline: none;
+  position: absolute !important;
+  top: 30% !important;
+  right: 1px !important;
+  transform: translate(0px, 70%) !important;
+}
+
+.swiper-button-prev {
+  outline: none;
+  position: absolute !important;
+  top: 30% !important;
+  left: 1px !important;
+  transform: translate(0px, 70%) !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  opacity: 0 !important;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0 !important;
+}
+
+@media (min-width: 992px) {
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    opacity: 1 !important;
+    font-size: 20px !important;
+    background: #00000022 !important;
+
+    color: #ffffff !important;
+    padding: 14px 8px !important;
+  }
+}
+
+.pagination-dot .swiper-pagination-bullet {
+  opacity: 0.2 !important;
+  background: #000000 !important;
+  border-radius: 50px !important;
+
+  width: 8px !important;
+  height: 8px !important;
+
+  margin: 0px 6px !important;
+}
+
+.pagination-dot .swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background: #ff0a55 !important;
+}
+
+div [data-globals="input-from"] {
+  margin-bottom: 1rem;
+}
+
+.tooltip-inner {
+  padding: 12px 20px !important;
+  text-align: left !important;
+  max-width: 350px !important;
+  background-color: #090909 !important;
+  font-family: "Sukhumvit-Set", "centraNo2" !important;
+}
+
+.modal-content {
+  border-radius: 0px !important;
+  border: 0px solid black !important;
+}
+
+
+.cls-icon_heart{
+  fill: transparent;
+  stroke: #000000!important;
+  stroke-width: 2px;
+  stroke-miterlimit: 3.27;
+}

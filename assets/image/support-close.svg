@@ -1,0 +1,12 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+	<defs>
+		<style>.cls-close-1{fill:#ff0a55;}.cls-close-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-miterlimit:10;stroke-width:7px;}</style>
+	</defs>
+	<title>Icon New Web Final 2</title>
+	<g id="Layer_4">
+		<circle class="cls-close-1" cx="50" cy="50" r="50"/>
+		<line class="cls-close-2" x1="31.68" y1="68.32" x2="68.32" y2="31.68"/>
+		<line class="cls-close-2" x1="68.32" y1="68.32" x2="31.68" y2="31.68"/>
+	</g>
+</svg>
