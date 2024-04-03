@@ -58,22 +58,22 @@ function Card(props) {
             </div>
             <div data-card='content'>
                 <h1 data-card="title">{title}</h1>
-                {/* <div data-card="description">{short_descritions}</div> */}
+                <div data-card="description">{short_descritions}</div>
                 <div data-card="info">
                     <div data-card="flex-view">
                         <div>ปริมาณ</div>
                         <div>{size}</div>
                     </div>
                     <div data-card="tag">
-                        <div>Tag</div>
+                        {/* <div>Tag</div> */}
                         <div data-tag="wrapper">
-                            {tag.map((value, k) => {
+                            {/* {tag.map((value, k) => {
                                 return (
                                     <div data-card="tag-item" key={`key-${k}`}>
                                         {value}
                                     </div>
                                 )
-                            })}
+                            })} */}
                         </div>
                     </div>
                 </div>
@@ -88,11 +88,6 @@ const Wrapper = styled.div`
     box-shadow: rgba(0, 0, 0, 0.05) 0px -1px 1px, rgba(0, 0, 0, 0.16) 0px 3px 6px;
     border-radius:16px;
     cursor: pointer;
-    padding-bottom: 20px;
-    @media(min-width: ${({ theme }) => theme.md}) 
-        { 
-            padding-bottom: 40px;
-        }
     [data-card="title"]
     {
         margin-top:20px;
@@ -137,13 +132,17 @@ const Wrapper = styled.div`
         flex-wrap: wrap;
         gap: 10px;
         margin-top: 20px;
+        /* min-height: 60px; */
     }
     [data-card="tag-item"]
     {
+        display: flex;
+        margin-bottom: auto;
         background-color: black;
         color:white;
         border-radius: 16px;
         padding: 4px 12px;
+        font-size: 10px;
     }
     [data-card="tag-item"]:hover
     {
@@ -153,10 +152,12 @@ const Wrapper = styled.div`
     }
     [data-card="description"]
     {
+        margin-top: 10px;
         text-overflow: ellipsis;
         display: -webkit-box;
-        -webkit-line-clamp: 1;
+        -webkit-line-clamp: 4;
         -webkit-box-orient: vertical;
         overflow: hidden;
+        min-height: 100px;
     }
 `

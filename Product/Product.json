@@ -81,28 +81,8 @@
       "tag": ["งานบ้าน"]
     },
     {
-      "title": "Celimax Oil Control Light Sunscreen",
-      "short_descritions": "กันแดดคุมมัน กันน้ำกันเหงื่อ เนื้อเบาสบายผิว ไบร์ทผิวใส ปรับสีผิวให้สม่ำเสมอ ฟินิชผิวแมท",
-      "ImageUrl": "/products/s1/14.webp",
-      "link": "https://www.lazada.co.th/products/i4510526441-s18449545441.html?urlFlag=true&mp=1",
-      "size": "40 ml.",
-      "shopee": "",
-      "lazada": "",
-      "lnwshop": "",
-      "modal": {
-        "topic": "",
-        "descritions_1": "",
-        "descritions_2": "",
-        "descritions_3": "",
-        "descritions_4": "",
-        "descritions_5": "",
-        "descritions_6": ""
-      },
-      "tag": ["ครีม"]
-    },
-    {
       "title": "TALISA Clinic",
-      "short_descritions": "ครที่มีปัญหาเรื่องขน ขอ แนะนำสุดๆ มาทำที่ Talisa Clinic เลย บุฟเฟ่ 1 ปี เราทำน้องสาว ทำแบบ Whole Bikini ค่า ราคา 5699 ยาทา อีก 100 ( ไว้ลดการระคายเคืองหลังทำ) มันคือดีมาก โล่งเตียน สบายยยย อ่านต่อได้ที่ https://www.wongnai.com/reviews/9101e99681f043068e3f02f1b7d59795?ref=ct",
+      "short_descritions": "ครที่มีปัญหาเรื่องขน ขอ แนะนำสุดๆ มาทำที่ Talisa Clinic เลย บุฟเฟ่ 1 ปี เราทำน้องสาว",
       "ImageUrl": "/products/s1/16.png",
       "link": "https://www.facebook.com/talisaclinic",
       "size": "- ml.",
@@ -119,6 +99,26 @@
         "descritions_6": ""
       },
       "tag": ["คลินิก", "ทำความสะอาด", "sex" , "ดูแลตัวเอง"]
+    },
+    {
+      "title": "UGREEN 100W",
+      "short_descritions": "สายชาร์ตเร็ว 100w รองรับ MAC S23 S24 และสามารถชาร์ตในรถยนต์ได้",
+      "ImageUrl": "/products/s1/17.webp",
+      "link": "https://www.lazada.co.th/products/ugreen-100w-type-c-fast-charging-cable-e-marker-for-iphone-15-series-samsung-ultra-ipad-pro-macbook-switch-model-70427-i649502735-s17537382632.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253AUGREEN%252B100W%253Bnid%253A649502735%253Bsrc%253ALazadaMainSrp%253Brn%253Ab6da8556275ab4dfe62d94bb29968871%253Bregion%253Ath%253Bsku%253A649502735_TH%253Bprice%253A119%253Bclient%253Adesktop%253Bsupplier_id%253A21179%253Bbiz_source%253Ah5_internal%253Bslot%253A0%253Butlog_bucket_id%253A470687%253Basc_category_id%253A6130%253Bitem_id%253A649502735%253Bsku_id%253A17537382632%253Bshop_id%253A5748&fastshipping=0&freeshipping=1&fs_ab=2&fuse_fs=&lang=en&location=Samut%20Prakan&price=119&priceCompare=skuId%3A17537382632%3Bsource%3Alazada-search-voucher%3Bsn%3Ab6da8556275ab4dfe62d94bb29968871%3BunionTrace%3Aa3b55e9b17121174283714384e%3BoriginPrice%3A11900%3BvoucherPrice%3A11900%3BdisplayPrice%3A11900%3BsinglePromotionId%3A900000026326063%3BsingleToolCode%3AflashSale%3BvoucherPricePlugin%3A1%3BbuyerId%3A100006814614%3Btimestamp%3A1712117428807%3BsearchDisctDet%3A%5B%7B%22discountValue%22%3A0%2C%22toolCode%22%3A%22shopPromotionPart%22%2C%22voucherId%22%3A900000026445080%7D%5D&ratingscore=4.962430773836252&request_id=b6da8556275ab4dfe62d94bb29968871&review=13361&sale=52733&search=1&source=search&spm=a2o4m.searchlist.list.0&stock=1",
+      "size": "- ml.",
+      "shopee": "",
+      "lazada": "",
+      "lnwshop": "",
+      "modal": {
+        "topic": "",
+        "descritions_1": "",
+        "descritions_2": "",
+        "descritions_3": "",
+        "descritions_4": "",
+        "descritions_5": "",
+        "descritions_6": ""
+      },
+      "tag": ["รถยนต์","อุปกรณ์"]
     }
   ]
 }

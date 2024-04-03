@@ -21,14 +21,14 @@ function Tab() {
 
     const items_S1 = get(S1, 'items', null)
 
-    const [state, setState] = useState('s1')
+    const [state, setState] = useState('all')
     const [width, setWidth] = useState(0)
     const [itemFilter, setItemFilter] = useState([])
 
     const items = [
         {
-            name: 'ชีวิตประจำวัน',
-            value: 's1'
+            name: 'ทั้งหมด',
+            value: 'all'
         },
         {
             name: 'ทำความสะอาด',
@@ -71,7 +71,6 @@ function Tab() {
                 <div data-main="border">
                     <div data-main="wrapper-group">
                         {
-                            state == 's1' &&
                             items_S1.map((item, k) => {
                                 return (
                                     <div data-main="wrapper-group-card" key={`key-${k}`}>
@@ -133,11 +132,11 @@ const Wrapper = styled.div`
         { 
             grid-template-columns: 1fr 1fr;
             padding: 40px 0px;
-            gap: 40px;
+            gap: 20px;
         }
         @media(min-width: ${({ theme }) => theme.lg}) 
         { 
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr ; 
         }
     }
     [data-main="wrapper-group-card"]
